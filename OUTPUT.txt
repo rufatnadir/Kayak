@@ -1,0 +1,52 @@
+*********************************************************************
+# User         : Andy
+# Email        : andy.gurbanov@gmail.com
+# Date         : 2014-11-03 12:43:56
+# OS           : Windows
+# Ruby Version : 2.0.0 
+# Script       : Kayak.rb
+# Description  : Basic Search Scenario for KAYAK website
+*********************************************************************
+************ Test started at: 2014-11-03 12:43:56 -0800  ************
+************ Test Case: #1
+***PASSED*** Landing Page Title is: KAYAK - Cheap Flights, Hotels, Airline Tickets, Cheap Tickets, Cheap Travel Deals - Compare Hundreds of Travel Sites At Once
+***PASSED*** Origin Airport selected as: MSY
+***PASSED*** Destination Airport selected as: ANC
+***PASSED*** Depart Date: Fri 12/26/2014
+***PASSED*** Return Date: Wed 12/31/2014
+***PASSED*** KAYAK Search Results has been opened
+***PASSED*** Total Number of Displayed Search Results: 1241 of 1405 flights
+***PASSED*** Search Result for New Orleans (MSY) contains MSY
+***PASSED*** Search Result for Anchorage (ANC) contains ANC
+************ Test Case: #2
+***PASSED*** Landing Page Title is: KAYAK - Cheap Flights, Hotels, Airline Tickets, Cheap Tickets, Cheap Travel Deals - Compare Hundreds of Travel Sites At Once
+***PASSED*** Origin Airport selected as: CHI
+***PASSED*** Destination Airport selected as: SAN
+***FAILED*** Selenium::WebDriver::Error::UnknownError
+************ Test Case: #3
+***PASSED*** Landing Page Title is: KAYAK - Cheap Flights, Hotels, Airline Tickets, Cheap Tickets, Cheap Travel Deals - Compare Hundreds of Travel Sites At Once
+***PASSED*** Origin Airport selected as: PAR
+***PASSED*** Destination Airport selected as: MIL
+***PASSED*** Depart Date: Tue 11/25/2014
+***FAILED*** Selenium::WebDriver::Error::InvalidSelectorError
+************ Test Case: #4
+***PASSED*** Landing Page Title is: KAYAK - Cheap Flights, Hotels, Airline Tickets, Cheap Tickets, Cheap Travel Deals - Compare Hundreds of Travel Sites At Once
+***PASSED*** Origin Airport selected as: JFK
+***PASSED*** Destination Airport selected as: KBP
+***PASSED*** Depart Date: Sun 11/30/2014
+***PASSED*** Return Date: Sat 12/20/2014
+***PASSED*** KAYAK Search Results has been opened
+***PASSED*** Total Number of Displayed Search Results: 1104 of 3929 flights
+***PASSED*** Search Result for New York (JFK) contains JFK
+***PASSED*** Search Result for Kiev (KBP) contains KBP
+************ Test Case: #5
+***PASSED*** Landing Page Title is: KAYAK - Cheap Flights, Hotels, Airline Tickets, Cheap Tickets, Cheap Travel Deals - Compare Hundreds of Travel Sites At Once
+***PASSED*** Origin Airport selected as: SEA
+***PASSED*** Destination Airport selected as: DEN
+***PASSED*** Depart Date: Mon 12/1/2014
+***PASSED*** Return Date: Fri 12/19/2014
+***PASSED*** KAYAK Search Results has been opened
+***PASSED*** Total Number of Displayed Search Results: 1804 of 2081 flights
+***PASSED*** Search Result for Seattle (SEA) contains SEA
+***PASSED*** Search Result for Denver (DEN) contains DEN
+************ Test finished:  2014-11-03 12:46:15 -0800   ************ Duration:  139.331881  ************
