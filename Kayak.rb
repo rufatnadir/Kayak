@@ -107,7 +107,7 @@ input.each do |line|
     browser.title == search_results_title ? (output.puts "***PASSED*** #{search_results_title} has been opened"):(output.puts "***FAILED*** Couldn't verify search results page: #{search_results_title}")
     # Waiting for Search Results Page
     sleep(1)
-    wait = Selenium::WebDriver::Wait.new(:timeout => 20)
+    wait = Selenium::WebDriver::Wait.new(:timeout => 10)
     wait.until { browser.find_element(:xpath => search_result_page_el) }
     # Number of Search Results
     output.puts "***PASSED*** Total Number of Displayed Search Results: #{browser.find_element(:xpath, search_result_number).text}"
@@ -123,7 +123,7 @@ input.each do |line|
   rescue Selenium::WebDriver::Error::InvalidSelectorError
     output.puts "***FAILED*** Selenium::WebDriver::Error::InvalidSelectorError"   # Intentional Error. In order to avoid it please add Return Date to the line #3 in the INPUT.csv file
   rescue Selenium::WebDriver::Error::TimeOutError
-    output.puts "***FAILED*** Selenium::WebDriver::Error::TimeOutError"           # Intentional Error. In order to avoid it please increase explicit wait time in the Line #110 (up to 60 sec)
+    output.puts "***FAILED*** Selenium::WebDriver::Error::TimeOutError"           # Possible Intentional Error. In order to avoid it please increase explicit wait time in the Line #110 (up to 60 sec)
     # Following Loop while try several attempts, before script will be stopped
     until $i == 5
       $i += 1
