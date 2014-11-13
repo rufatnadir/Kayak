@@ -1,3 +1,4 @@
+#edited by Rufat
 require 'selenium-webdriver'
 start_time = Time.now
 #########################################################
